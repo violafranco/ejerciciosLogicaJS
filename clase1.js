@@ -30,4 +30,4 @@ let texto2 = 'Hola juan carlos ';
 function repetir(str, nroVeces){
     return str.repeat(nroVeces)
 }
-console.log(repetir(texto2, 2));
+//console.log(repetir(texto2, 2));

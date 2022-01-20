@@ -73,6 +73,8 @@ const eliminarPatron = (str = '', patron = '') => {
     : (!patron) 
         ? console.warn('No ingresaste un patrón')
         : console.log(str.replace(new RegExp(patron, 'ig'), ''))
+        //ig: la i es para que no diferencie min o mas
+        //ig: la g es para que no se detenga en la primer coincidencia y ejecute todas las que encuentre
 }
 eliminarPatron('xyz1, xyz2, xyz3, xyz4 y xyz5', 'xyz')
     
